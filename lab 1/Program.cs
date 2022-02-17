@@ -8,12 +8,12 @@ namespace lab_1
         static void Main(string[] args)
         {
             int[] nums2 = new int[4] { 10, 2, 3, 3 };
-            Console.WriteLine(Kata.QueueTime(nums2, 2));
+            Console.WriteLine(HW1.QueueTime(nums2, 2));
         }
     }
 
 
-    public class Kata
+    public class HW1
     {
         public static long QueueTime(int[] customers, int n)
         {
